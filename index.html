@@ -1,39 +1,246 @@
-==== HTML ====
-||'''Classes names'''||'''.h/.cpp'''||'''Cmake'''||'''Compilable'''||'''Tests present'''||'''Tests passed'''||'''Documentation'''||
-||Http||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||[[Image(ok.png)]]||
-||Wget||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||
-||Asio||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(no.png)]]||[[Image(ok.png)]]||
-
-==== Libs ====
-||'''Classes names'''||'''.h/.cpp'''||'''Cmake'''||'''Compilable'''||'''Tests present'''||'''Tests passed'''||'''Documentation'''||
-||Convert||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||
-||Dati||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||
-||Languages||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||[[Image(no.png)]]||
-||Prgdata||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||
-||Urlencode||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||
-
-==== Wiki ====
-||'''Classes names'''||'''.h/.cpp'''||'''Cmake'''||'''Compilable'''||'''Tests present'''||'''Tests passed'''||'''Documentation'''||
-||Categories||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||Edittoken||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||Images||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||Login||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||Move||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||Read||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||RelatedPages||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||User||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||[[Image(pa.png)]]||
-||Write||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-
-==== Extended ====
-||'''Classes names'''||'''.h/.cpp'''||'''Cmake'''||'''Compilable'''||'''Tests present'''||'''Tests passed'''||'''Documentation'''||
-||Currency||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(ok.png)]]||[[Image(pa.png)]]||
-||Earthquake||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||
-||Index||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||
-||Storm||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||[[Image(uk.png)]]||
-
-==== Symbols Mean ====
-||[[Image(ok.png)]]||Done||
-||[[Image(pa.png)]]||Partial||
-||[[Image(no.png)]]||To do||
-||[[Image(ol.png)]]||Old, to be checked and/or upadated||
-||[[Image(uk.png)]]||Unknown (To be consider as no)||
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+   <HEAD>
+      <TITLE>Wikipp</TITLE>
+   </HEAD>
+  <BODY>
+    <TABLE width="100%" style="text-align:center" border=1>
+      <TR>
+        <TD colspan=2><b>Piece</b></TD>
+        <TD colspan=6><b>Status</b></TD>
+      </TR>
+      <TR>
+        <TD><b>Section</b></TD>
+        <TD><b>Part</b></TD>
+        <TD><b>.h/.cpp</b></TD>
+        <TD><b>Cmake</b></TD>
+        <TD><b>Compilable</b></TD>
+        <TD><b>Tests present</b></TD>
+        <TD><b>Tests passed</b></TD>
+        <TD><b>Documentation</b></TD>
+      </TR>
+      <TR>
+        <TD rowspan=3><b>Http</b></TD>
+        <TD>Http</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/pa.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Wget</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Asio</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/no.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD rowspan=5><b>Libs</b></TD>
+        <TD>Convert</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Dati</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Languages</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/pa.png"></img></TD>
+        <TD><img src="images/png/no.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Prgdata</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Urlencode</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD rowspan=9><b>Wiki</b></TD>
+        <TD>Categories</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Edittoken</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Images</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Login</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Move</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Read</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>RelatedPages</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>User</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/pa.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Write</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+      </TR>
+      <TR>
+        <TD rowspan=4><b>Extended</b></TD>
+        <TD>Currency</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/no.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Earthquake</TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Index</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/pa.png"></img></TD>
+        <TD><img src="images/png/no.png"></img></TD>
+      </TR>
+      <TR>
+        <TD>Storm</TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD><img src="images/png/no.png"></img></TD>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD><img src="images/png/no.png"></img></TD>
+      </TR>
+    </TABLE>
+    <br />
+    <br />
+    <br />
+    <TABLE>
+      <TR>
+        <TD colspan=2><b>Symbols Mean</b></TD>
+      </TR>
+      <TR>
+        <TD><img src="images/png/ok.png"></img></TD>
+        <TD>Done</TD>
+      </TR>
+      <TR>
+        <TD><img src="images/png/pa.png"></img></TD>
+        <TD>Partial</TD>
+      </TR>
+      <TR>
+        <TD><img src="images/png/no.png"></img></TD>
+        <TD>To do</TD>
+      </TR>
+      <TR>
+        <TD><img src="images/png/ol.png"></img></TD>
+        <TD>Old, to be checked and/or upadated</TD>
+      </TR>
+      <TR>
+        <TD><img src="images/png/uk.png"></img></TD>
+        <TD>Unknown (To be consider as no)</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>
