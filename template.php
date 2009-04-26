@@ -28,8 +28,10 @@ function navigation()
     <div class="pBody">
       <ul>
         <li><a href=".">Home Page</a></li>
-        <li><a href="me.php">About Me</a></li>
-        <li><a href="wikipp.php">Wiki++</a></li>
+<?php
+#        <li><a href="me.php">About Me</a></li>
+#        <li><a href="wikipp.php">Wiki++</a></li>
+?>
         <li><a href="status.php">Status</a></li>
       </ul>
     </div>
