@@ -222,8 +222,6 @@ headers("Wiki++ - Status");
   </tr>
 </table>
 <br />
-<br />
-<br />
 <table>
   <tr>
     <td colspan=2><b>Symbols Mean</b></td>
