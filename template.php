@@ -51,7 +51,7 @@ function footer()
       </div><!--column-content-->
       <div id="column-one">
         <div id="p-logo" class="portlet">
-          <a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" style="background-image: url(images/png/ts.png);"></a>
+          <a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" style="background-image: url(images/png/logo.png);"></a>
         </div><!--p-logo-->
         <?php navigation(); ?>
       </div><!--column-one-->
