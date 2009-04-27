@@ -22,24 +22,22 @@ function headers($title)
 
 function navigation()
 {
+  $site = $_SERVER["HTTP_HOST"];
   ?>
   <div id="p-navigation" class="portlet">
     <h5>Navigation</h5>
     <div class="pBody">
       <ul>
-        <li><a href=".">Home Page</a></li>
-<?php
-#        <li><a href="me.php">About Me</a></li>
-#        <li><a href="wikipp.php">Wiki++</a></li>
-?>
-        <li><a href="status.php">Status</a></li>
+        <li><a href="http://<?php echo $site ?>">Home Page</a></li>
+        <li><a href="http://<?php echo $site ?>/status.php">Status</a></li>
       </ul>
     </div>
     <br />
     <h5>Documentation</h5>
     <div class="pBody">
       <ul>
-        <li><a href="doc/trunk/">Wiki++ - Trunk</a></li>
+        <li><a href="http://<?php echo $site ?>/doc/0.1.0/">Wiki++ - 0.1.0</a></li>
+        <li><a href="http://<?php echo $site ?>/doc/trunk/">Wiki++ - Trunk</a></li>
       </ul>
     </div>
   </div>
@@ -53,7 +51,7 @@ function footer()
       </div><!--column-content-->
       <div id="column-one">
         <div id="p-logo" class="portlet">
-          <a href="." style="background-image: url(images/png/ts.png);"></a>
+          <a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" style="background-image: url(images/png/ts.png);"></a>
         </div><!--p-logo-->
         <?php navigation(); ?>
       </div><!--column-one-->
