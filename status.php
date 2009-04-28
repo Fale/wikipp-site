@@ -2,7 +2,7 @@
 require "template.php";
 headers("Wiki++ - Status");
 ?>
-
+<h1>Goals for 0.2.0</h1>
 <table class="wikitable" width="100%" style="text-align:center">
   <tr>
     <td colspan=2><b>Piece</b></td>
@@ -237,36 +237,42 @@ headers("Wiki++ - Status");
     <td><b>Spell Check</b></td>
   </tr>
   <tr>
-    <td rowspan=3><b>Website</b></td>
+    <td rowspan=4><b>Website</b></td>
     <td>Home</td>
     <td><img src="images/png/ok.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
   </tr>
   <tr>
     <td>Status</td>
     <td><img src="images/png/ok.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
   </tr>
   <tr>
     <td>Doxygen</td>
     <td><img src="images/png/ok.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
-    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
+  </tr>
+  <tr>
+    <td>Bugzilla</td>
+    <td><img src="images/png/no.png"></img></td>
+    <td><img src="images/png/no.png"></img></td>
+    <td><img src="images/png/no.png"></img></td>
+    <td><img src="images/png/no.png"></img></td>
+    <td><img src="images/png/no.png"></img></td>
   </tr>
 </table>
 <br />
+<h3>Symbols means</h3>
 <table>
-  <tr>
-    <td colspan=2><b>Symbols Mean</b></td>
-  </tr>
   <tr>
     <td><img src="images/png/ok.png"></img></td>
     <td>Done</td>
