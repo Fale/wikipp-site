@@ -9,7 +9,7 @@ function headers($title)
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <style type="text/css" media="screen,projection">/*<![CDATA[*/
-        @import "css/main.css";
+        @import "http://<?php echo $_SERVER['HTTP_HOST']; ?>/css/main.css";
     /*]]>*/</style>
 
   </head>
@@ -51,7 +51,7 @@ function footer()
       </div><!--column-content-->
       <div id="column-one">
         <div id="p-logo" class="portlet">
-          <a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" style="background-image: url(images/png/logo.png);"></a>
+          <a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" style="background-image: url(http://<?php echo $_SERVER['HTTP_HOST']; ?>/images/png/logo.png);"></a>
         </div><!--p-logo-->
         <?php navigation(); ?>
       </div><!--column-one-->
