@@ -237,7 +237,7 @@ headers("Wiki++ - Status");
     <td><b>Spell Check</b></td>
   </tr>
   <tr>
-    <td rowspan=4><b>Website</b></td>
+    <td rowspan=5><b>Website</b></td>
     <td>Home</td>
     <td><img src="images/png/ok.png"></img></td>
     <td><img src="images/png/ok.png"></img></td>
@@ -252,6 +252,14 @@ headers("Wiki++ - Status");
     <td><img src="images/png/ok.png"></img></td>
     <td><img src="images/png/ok.png"></img></td>
     <td><img src="images/png/ol.png"></img></td>
+  </tr>
+  <tr>
+    <td>Doc home</td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/pa.png"></img></td>
+    <td><img src="images/png/no.png"></img></td>
   </tr>
   <tr>
     <td>Doxygen</td>
