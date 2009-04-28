@@ -222,6 +222,47 @@ headers("Wiki++ - Status");
   </tr>
 </table>
 <br />
+<table class="wikitable" width="100%" style="text-align:center">
+  <tr>
+    <td colspan=2><b>Piece</b></td>
+    <td colspan=6><b>Status</b></td>
+  </tr>
+  <tr>
+    <td><b>Object</b></td>
+    <td><b>Part</b></td>
+    <td><b>Present</b></td>
+    <td><b>CSS</b></td>
+    <td><b>Images</b></td>
+    <td><b>Texts</b></td>
+    <td><b>Spell Check</b></td>
+  </tr>
+  <tr>
+    <td rowspan=3><b>Website</b></td>
+    <td>Home</td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+  </tr>
+  <tr>
+    <td>Doxygen</td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+    <td><img src="images/png/uk.png"></img></td>
+  </tr>
+</table>
+<br />
 <table>
   <tr>
     <td colspan=2><b>Symbols Mean</b></td>
