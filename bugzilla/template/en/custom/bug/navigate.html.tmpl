@@ -1,0 +1,50 @@
+[%# 1.0@bugzilla.org %]
+[%# The contents of this file are subject to the Mozilla Public
+  # License Version 1.1 (the "License"); you may not use this file
+  # except in compliance with the License. You may obtain a copy of
+  # the License at http://www.mozilla.org/MPL/
+  #
+  # Software distributed under the License is distributed on an "AS
+  # IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+  # implied. See the License for the specific language governing
+  # rights and limitations under the License.
+  #
+  # The Original Code is the Bugzilla Bug Tracking System.
+  #
+  # The Initial Developer of the Original Code is Netscape Communications
+  # Corporation. Portions created by Netscape are
+  # Copyright (C) 1998 Netscape Communications Corporation. All
+  # Rights Reserved.
+  #
+  # Contributor(s): Gervase Markham <gerv@gerv.net>
+  #%]
+
+[% PROCESS global/variables.none.tmpl %]
+
+<!-- owurshvsouhfvosuhv  (use this to find what template this is) -->
+
+[% IF bug_list && bug_list.size > 0 %]
+  [% this_bug_idx = lsearch(bug_list, bug.bug_id) %]
+  [% IF this_bug_idx != -1 %]
+    <li id="ca-buglist-of" class="selected"><a href="buglist.cgi?regetlastlist=1">[% this_bug_idx + 1 %] of [% bug_list.size %]</a></li>
+  [% END %]
+
+  <li id="ca-buglist-first"><a href="show_bug.cgi?id=[% bug_list.first %]">First</a></li>
+  <li id="ca-buglist-last"><a href="show_bug.cgi?id=[% bug_list.last %]">Last</a></li>
+
+  [% IF bug.bug_id %]
+    [% IF this_bug_idx != -1 %]
+      [% IF this_bug_idx > 0 %]
+        [% prev_bug = this_bug_idx - 1 %]
+        <li id="ca-buglist-prev"><a href="show_bug.cgi?id=[% bug_list.$prev_bug %]">Prev</a></li>
+      [% END %]
+
+      [% IF this_bug_idx + 1 < bug_list.size %]
+        [% next_bug = this_bug_idx + 1 %]
+        <li id="ca-buglist-next"><a href="show_bug.cgi?id=[% bug_list.$next_bug %]">Next</a></li>
+      [% END %]
+    [% END %]
+  [% END %]
+
+  <li id="ca-buglist-show"><a href="buglist.cgi?regetlastlist=1">Show list</a></li>
+[% END %]

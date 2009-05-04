@@ -1,0 +1,71 @@
+[%# 1.0@bugzilla.org %]
+[%# The contents of this file are subject to the Mozilla Public
+  # License Version 1.1 (the "License"); you may not use this file
+  # except in compliance with the License. You may obtain a copy of
+  # the License at http://www.mozilla.org/MPL/
+  #
+  # Software distributed under the License is distributed on an "AS
+  # IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+  # implied. See the License for the specific language governing
+  # rights and limitations under the License.
+  #
+  # The Original Code is the Bugzilla Bug Tracking System.
+  #
+  # The Initial Developer of the Original Code is Netscape Communications
+  # Corporation. Portions created by Netscape are
+  # Copyright (C) 1998 Netscape Communications Corporation. All
+  # Rights Reserved.
+  #
+  # Contributor(s): Myk Melez <myk@mozilla.org>
+  #%]
+
+<ul class='attachments'>
+  [% canseeprivate = !Param("insidergroup") || UserInGroup(Param("insidergroup")) %]
+  [% FOREACH attachment = attachments %]
+<li>
+        [% IF !attachment.isprivate || canseeprivate %]
+    [% "<strong>(private)</strong>" IF attachment.isprivate %]
+<a href="attachment.cgi?id=[% attachment.attachid %]&amp;action=view">[% attachment.description FILTER html FILTER obsolete(attachment.isobsolete) %]</a>;
+
+        [% IF attachment.ispatch %]
+          patch;
+        [% ELSE %]
+          [% attachment.contenttype FILTER html %];
+        [% END %]
+
+      [% attachment.datasize FILTER unitconvert %];
+      created [% attachment.date FILTER time %]
+
+      [% IF show_attachment_flags %]
+	flags:
+          [% IF attachment.flags.size == 0 %]
+            <strong>none</strong>
+          [% ELSE %]
+            [% FOREACH flag = attachment.flags %]
+                [% IF flag.setter %]
+                  [% flag.setter.nick FILTER html %]:
+                [% END %]
+                [%+ flag.type.name FILTER html %][% flag.status %]
+                [%+ IF flag.status == "?" && flag.requestee %]
+                  ([% flag.requestee.nick FILTER html %])
+                [% END %]
+            [% END %]
+          [% END %]
+      [% END %]
+      
+        [% IF attachment.canedit %]
+          <a href="attachment.cgi?id=[% attachment.attachid %]&amp;action=edit">[edit]</a>
+        [% END %]
+        [% IF attachment.ispatch && patchviewerinstalled %]
+          <a href="attachment.cgi?id=[% attachment.attachid %]&amp;action=diff">[diff]</a>
+        [% END %]
+        [% END %]
+</li>
+  [% END %]
+</ul>
+
+      <div><a href="attachment.cgi?bugid=[% bugid %]&amp;action=enter">Create a new attachment</a> (proposed patch, testcase, etc.).
+    [% IF attachments.size %]
+        <a href="attachment.cgi?bugid=[% bugid %]&amp;action=viewall">View all attachments.</a>
+    [% END %]
+</div>

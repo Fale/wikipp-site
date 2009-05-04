@@ -1,0 +1,20 @@
+/config.js.tmpl/1.11/Sun Apr 20 09:50:02 2008//TBUGZILLA-3_2_3
+/config.rdf.tmpl/1.13.2.1/Wed Nov 26 01:03:48 2008//TBUGZILLA-3_2_3
+/filterexceptions.pl/1.111.2.4/Mon Feb  9 16:14:17 2009//TBUGZILLA-3_2_3
+/index.html.tmpl/1.40/Thu Apr  3 19:05:49 2008//TBUGZILLA-3_2_3
+/sidebar.xul.tmpl/1.25/Mon Aug 20 18:24:39 2007//TBUGZILLA-3_2_3
+/welcome-admin.html.tmpl/1.4.2.1/Sun Jan 25 22:43:32 2009//TBUGZILLA-3_2_3
+D/account////
+D/admin////
+D/attachment////
+D/bug////
+D/email////
+D/flag////
+D/global////
+D/list////
+D/pages////
+D/reports////
+D/request////
+D/search////
+D/setup////
+D/whine////

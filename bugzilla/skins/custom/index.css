@@ -1,0 +1,19 @@
+/*
+ * Custom rules for skins/standard/index.css.
+ * The rules you put here override rules in that stylesheet.
+ */
+
+    /* Hide from NN4 */
+    div#page-index .intro
+    {
+        width: 300px;
+        height: 346px;
+
+	margin: 0;
+	padding: 0;
+        float: right;
+	background: transparent;
+    }
+    div#page-index .intro a img {
+	border: 0;
+    }
