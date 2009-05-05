@@ -271,11 +271,11 @@ headers("Wiki++ - Status");
   </tr>
   <tr>
     <td>Bugzilla</td>
-    <td><img src="images/png/no.png"></img></td>
-    <td><img src="images/png/no.png"></img></td>
-    <td><img src="images/png/no.png"></img></td>
-    <td><img src="images/png/no.png"></img></td>
-    <td><img src="images/png/no.png"></img></td>
+    <td><img src="images/png/ok.png"></img></td>
+    <td><img src="images/png/pa.png"></img></td>
+    <td><img src="images/png/pa.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
+    <td><img src="images/png/ol.png"></img></td>
   </tr>
 </table>
 <br />
