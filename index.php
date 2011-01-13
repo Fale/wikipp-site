@@ -8,6 +8,7 @@ headers("Wiki++ - Home Page");
 <p>Wiki++ is released under the terms of the GPLv3.</p>
 <p>Wiki++ source is available <a href="http://git.grimp.eu/?p=wikipp-framework.git;a=summary">here</a>.</p>
 <p>Wiki++ examples are available <a href="http://git.grimp.eu/?p=wikipp-framework.git;a=summary">here</a>.</p>
+<p>Wiki++ site source are available <a href="http://git.grimp.eu/?p=wikipp-site.git;a=summary">here</a>.</p>
 <p>Wiki++ documentation is available <a href="doc/">here</a>.</p>
 
 <?php
